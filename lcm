@@ -1,0 +1,22 @@
+#lcm of 2 numbers:
+int main()
+{
+  int a,b;
+  int start=max(a,b);
+  int end=a*b;
+  int answer=start;
+  cin>>a>>b;
+  for(int i=start;i<=end;i++)
+  {
+   if(i%a==0 and i%b==0)
+     {
+     answer=i;
+     break;
+     }
+     }
+    cout<<answer;
+    }
+    
+    
+    
+  
